@@ -1,0 +1,335 @@
+@media(max-width:1170px) and (min-width:100px) {
+    .ul_header {
+        display: none;
+    }
+}
+
+@media(max-width:730px) {
+    .header {
+        justify-content: center;
+    }
+
+    .header_h1 {
+        font-size: 25px;
+    }
+
+    .btn {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .span_main {
+        font-size: 25px;
+    }
+
+    .p_main {
+        font-size: 20px;
+    }
+
+    .main {
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:500px) {
+    .header_h1 {
+        font-size: 18px;
+    }
+
+    .btn {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .img_main {
+        display: none;
+    }
+
+    .atm_kurs {
+        font-size: 25px;
+    }
+
+    .span_video {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+}
+
+@media(max-width:1100px) {
+    .img_main {
+        width: 400px;
+        margin-top: 50px;
+    }
+
+    .main {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:350px) {
+    .span_video {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+}
+
+@media(max-width:750px) {
+    .span_about {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:685px) {
+    .home_about_2 {
+        flex-direction: row;
+        width: 520px;
+        height: 380px;
+    }
+
+    .word_span {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:520px) {
+    .img_about {
+        width: 180px;
+        margin-top: 10px;
+    }
+
+    .home_about_2 {
+        height: 350px;
+    }
+
+    .p_about {
+        font-size: 16px;
+    }
+
+    .p_about_2 {
+        font-size: 14px;
+    }
+
+    .span_about {
+        font-size: 22px;
+    }
+
+    .home_about_2 {
+        margin-top: -10px;
+    }
+
+    .kurs_name {
+        font-size: 35px;
+    }
+
+    .p_kurs {
+        font-size: 30px;
+    }
+
+    .p_kurs_2 {
+        font-size: 16px;
+    }
+
+    .kurs_home_2 {
+        height: 530px;
+        width: 350px;
+    }
+
+    .swiper-button-next {
+        transform: translateX(10%);
+        transform: translateY(-600%);
+    }
+
+    .swiper-button-prev {
+        transform: translateX(400%);
+        transform: translateY(-600%);
+    }
+
+    .btn_kurs {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media(max-width:400px) {
+    .img_about {
+        width: 150px;
+    }
+
+    .home_about_2 {
+        height: 270px;
+    }
+
+    .kurs_name {
+        font-size: 28px;
+    }
+
+    .p_kurs {
+        font-size: 25px;
+    }
+
+    .p_kurs_2 {
+        font-size: 14px;
+        margin-top: -20px;
+    }
+
+    .kurs_home_2 {
+        height: 430px;
+        width: 350px;
+    }
+
+    .swiper-button-next {
+        transform: translateX(10%);
+        transform: translateY(-500%);
+    }
+
+    .swiper-button-prev {
+        transform: translateX(400%);
+        transform: translateY(-500%);
+    }
+
+    .btn_kurs {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+}
+
+@media(max-width:670px) {
+    .location_name {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:600px) {
+    .img_location {
+        width: 350px;
+    }
+}
+
+@media(max-width:490px) {
+    .ish {
+        font-size: 18px;
+    }
+
+    .vaqt {
+        font-size: 15px;
+    }
+
+    .span_location {
+        font-size: 18px;
+    }
+
+    .location_name {
+        font-size: 27px;
+    }
+}
+
+@media(max-width:420px) {
+    .ish {
+        font-size: 18px;
+    }
+
+    .vaqt {
+        font-size: 15px;
+    }
+
+    .span_location {
+        font-size: 18px;
+    }
+
+    .location_name {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:760px) {
+    .h1_footer {
+        font-size: 28px;
+    }
+}
+
+@media(max-width:580px) {
+    .h1_footer {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:460px) {
+    .h1_footer {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:820px) {
+    .h1_register {
+        font-size: 30px;
+    }
+
+    .span_register {
+        font-size: 21px;
+    }
+
+    .btn_register {
+        width: 300px;
+        height: 55px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:650px) {
+    .h1_register {
+        font-size: 25px;
+    }
+
+    .span_register {
+        font-size: 18px;
+    }
+
+    .label_register {
+        font-size: 12px;
+    }
+
+    .btn_register {
+        width: 230px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:460px) {
+    .form {
+        padding-left: 10px;
+        height: 500px;
+    }
+
+    .h1_register {
+        font-size: 20px;
+    }
+
+    .span_register {
+        font-size: 12px;
+    }
+
+    .label_register {
+        font-size: 10px;
+    }
+
+    .btn_register {
+        width: 180px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .input_register {
+        height: 50px;
+    }
+}
