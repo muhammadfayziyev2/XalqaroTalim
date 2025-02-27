@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Link from "next/link";
  
-const Kurs = () => {
+const Kurs = () => { 
     const kurslar = [
         { nomi: "Turk tili", narx: "650 000 so'm", darslar: ["Haftada 5 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
         { nomi: "Yapon tili", narx: "600 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },

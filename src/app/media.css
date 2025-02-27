@@ -10,7 +10,7 @@
     }
 
     .header_h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .btn {
@@ -32,7 +32,7 @@
     .main {
         margin-left: 30px;
     }
-    
+     
 }
 @media(max-width:520px){
     .img_main{
@@ -41,7 +41,7 @@
 }
 @media(max-width:500px) {
     .header_h1 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .btn {
@@ -102,7 +102,7 @@
 
 @media(max-width:685px) {
     .home_about_2 {
-        width: 520px;
+        
         height: 340px;
     }
 
@@ -120,7 +120,7 @@
         margin-top: 30px;
     }
     .home_about_2 {
-        height: 250px;
+        height: 300px;
     }
 
     .p_about {
@@ -176,11 +176,12 @@
 
 @media(max-width:400px) {
     .img_about {
-        width: 150px;
+        width: 240px;
     }
 
     .home_about_2 {
-        height: 220px;
+        height: 310px;
+        margin-left: 25px;
     }
 
     .kurs_name {

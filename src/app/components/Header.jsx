@@ -6,7 +6,7 @@ import React from "react";
 
 const Header = () => {
     return (
-        <header className="header">
+        <header className="header"> 
             <h1 className="header_h1">
                 XALQARO TA'LIM, <br /> ILMIY-AMALIY <br /> TADQIQOT MARKAZI
             </h1>
