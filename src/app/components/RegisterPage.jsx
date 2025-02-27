@@ -9,12 +9,12 @@ const RegisterPage = ({ sendData, loading }) => {
     const [courses, setCourses] = useState("")
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault(); 
         if (!FullName || !phone || !courses) {
             toast.error("Iltimos, barcha maydonlarni to'ldiring!");
             return;
         }
-
+        
         sendData(FullName, phone, courses);
         toast.success("Ma'lumotlar muvaffaqiyatli yuborildi!");
         setFullName("");
@@ -27,7 +27,7 @@ const RegisterPage = ({ sendData, loading }) => {
             <div className='name_register'>
                 <h1 className='h1_register'>XALQARO TA'LIM,</h1>
                 <h1 className='h1_register'> ILMIY-AMALIY TADQIQOT MARKAZI</h1>
-                <span className='span_register'>Uzingizni ma'lumotlaringizni qoldiring</span>
+                <span className='span_register'>Shahsiy ma'lumotlaringizni kiriting</span>
             </div>
             <div className='form_home'>
                 <form className='form' onSubmit={handleSubmit}>
@@ -41,6 +41,7 @@ const RegisterPage = ({ sendData, loading }) => {
                     <input
                         type="number"
                         className='input_register'
+                        placeholder='+998 __ ___ __ __'
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)} />
                     <label className='label_register'>Kurslar</label>

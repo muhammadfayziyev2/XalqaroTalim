@@ -6,10 +6,12 @@ import React from "react";
 
 const Header = () => {
     return (
-        <header className="header"> 
-            <h1 className="header_h1">
-                XALQARO TA'LIM, <br /> ILMIY-AMALIY <br /> TADQIQOT MARKAZI
-            </h1>
+        <header className="header">  
+           <div>
+                <img src="Xalqaro ta’lim.png" alt="" className="header_img" />
+                <p className="logo_p">XALQARO TA'LIM, <br /> ILMIY-AMALIY</p>
+                <p className="logo_p">TADQIQOT MARKAZI</p>
+           </div>
             <ul className="ul_header">
                 <li className="li">
                     <ScrollLink to="Kurs" smooth={true} duration={500} className="nav-link">Kurs</ScrollLink>

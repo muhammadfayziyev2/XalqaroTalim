@@ -12,9 +12,11 @@ const Kurs = () => {
     const kurslar = [
         { nomi: "Turk tili", narx: "650 000 so'm", darslar: ["Haftada 5 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
         { nomi: "Yapon tili", narx: "600 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
-        { nomi: "English", narx: "500 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
+        { nomi: "Ingliz tili", narx: "500 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
         { nomi: "Xitoy tili", narx: "500 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
         { nomi: "IT", narx: "600 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
+        { nomi: "Koreys tili", narx: "500 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
+        { nomi: "Rus tili", narx: "500 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
     ];
 
     return (

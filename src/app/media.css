@@ -5,10 +5,9 @@
 }
 
 @media(max-width:730px) {
-    .header {
-        justify-content: center;
+    .header{
+        margin-left: 20px;
     }
-
     .header_h1 {
         font-size: 30px;
     }
@@ -30,7 +29,7 @@
     }
 
     .main {
-        margin-left: 30px;
+        margin-left: 20px;
     }
      
 }
@@ -53,11 +52,11 @@
 
     
     .atm_kurs {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .span_video {
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 20px;
         margin-left: 25px;
     }
@@ -113,14 +112,16 @@
 
 @media(max-width:520px) {
     .img_about {
-        width: 180px;
+        width: 230px;
         margin-top: 10px;
     }
     .home_about{
         margin-top: 30px;
+        
     }
     .home_about_2 {
         height: 300px;
+        margin-left: 35px;
     }
 
     .p_about {
@@ -173,7 +174,7 @@
         padding-bottom: 15px;
     }
 }
-
+ 
 @media(max-width:400px) {
     .img_about {
         width: 240px;
@@ -330,8 +331,11 @@
     .form {
         padding-left: 10px;
         height: 500px;
+        width: 360px;
     }
-
+    .xafta{
+        margin-right: 30px;
+    }
     .h1_register {
         font-size: 20px;
     }
@@ -345,12 +349,32 @@
     }
 
     .btn_register {
-        width: 180px;
-        height: 35px;
-        font-size: 10px;
+        width: 210px;
+        height: 45px;
+        font-size: 15px;
     }
 
     .input_register {
         height: 50px;
+    }
+}
+@media(max-width:400px){
+    .form{
+        width: 320px;
+    }
+}
+@media(max-width:430px){
+    .ish_vaqt{
+        margin-right: 30px;
+    }
+}
+@media(max-width:750px){
+    .logo_p{
+        font-size: 35px;
+    }
+}
+@media(max-width:414px){
+    .logo_p{
+        font-size: 30px;
     }
 }
