@@ -30,9 +30,9 @@ const About = () => {
       desc: "Bizning o'quv markaz jahon standartlariga to'laqonli javob bera oladi",
     },
     {
-      img: "zamonaviy.jpg",
-      title: "Zamonaviy dizayn",
-      desc: "Bizning o'quv markaz jahon standartlariga to'laqonli javob bera oladi",
+      img: "intelekt.jpg",
+      title: "Qulay sharoit",
+      desc: "O‘quvchilar va talabalar uchun qulay sharoit bilim olish jarayonini yaxshilaydi",
     },
   ];
 

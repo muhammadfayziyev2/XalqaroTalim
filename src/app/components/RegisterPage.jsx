@@ -48,7 +48,7 @@ const RegisterPage = ({ sendData, loading }) => {
                         className='input_register'
                         value={courses}
                         onChange={(e) => setCourses(e.target.value)}>
-                        <option value="">Kurs tanlang</option>
+                        <option value="">Kursni tanlang</option>
                         <option value="Turk tili">Turk tili</option>
                         <option value="Yapon tili">Yapon tili</option>
                         <option value="Xitoy tili">Xitoy tili</option>
