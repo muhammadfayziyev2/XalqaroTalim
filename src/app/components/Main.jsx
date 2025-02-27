@@ -9,8 +9,8 @@ const Main = () => {
                 <div>
                     <span className='span_main'>Bizning o'quv markazimizda</span>
                     <p className='p_main'>Ingliz tili, Xitoy tili, Yapon tili, Turk tili hamda IT sohalari <br /> malakali uztozlar tomonidan mukammal o'rgatilinadi</p>
-                </div>
-                <div>
+                </div> 
+                <div >
                     <img src="xalq.png" alt="#" className='img_main' />
                 </div>
             </div>

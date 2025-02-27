@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import { toast } from 'react-hot-toast'
 
 const RegisterPage = ({ sendData, loading }) => {
     const [FullName, setFullName] = useState("")
@@ -9,11 +10,18 @@ const RegisterPage = ({ sendData, loading }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        setFullName("");
-        setPhone(""); 
-        setCourses("");
+        if (!FullName || !phone || !courses) {
+            toast.error("Iltimos, barcha maydonlarni to'ldiring!");
+            return;
+        }
+
         sendData(FullName, phone, courses);
+        toast.success("Ma'lumotlar muvaffaqiyatli yuborildi!");
+        setFullName("");
+        setPhone("");
+        setCourses("");
     };
+
     return (
         <div>
             <div className='name_register'>
@@ -37,10 +45,10 @@ const RegisterPage = ({ sendData, loading }) => {
                         onChange={(e) => setPhone(e.target.value)} />
                     <label className='label_register'>Kurslar</label>
                     <select
-                        name="" id=""
                         className='input_register'
                         value={courses}
                         onChange={(e) => setCourses(e.target.value)}>
+                        <option value="">Kurs tanlang</option>
                         <option value="Turk tili">Turk tili</option>
                         <option value="Yapon tili">Yapon tili</option>
                         <option value="Xitoy tili">Xitoy tili</option>
@@ -58,4 +66,4 @@ const RegisterPage = ({ sendData, loading }) => {
     )
 }
 
-export default RegisterPage
+export default RegisterPage;

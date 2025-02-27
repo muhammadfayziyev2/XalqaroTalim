@@ -12,7 +12,6 @@ const page = () => {
   const sendData = async (FullName, phone, courses) => {
     setLoading(true);
     setError("");
-
     try {
       const res = await axios.post(
         `https://xalqarotalimzayavkabackend-production.up.railway.app/submit`,

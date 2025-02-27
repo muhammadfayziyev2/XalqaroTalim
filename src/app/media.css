@@ -22,6 +22,7 @@
 
     .span_main {
         font-size: 25px;
+        
     }
 
     .p_main {
@@ -31,8 +32,13 @@
     .main {
         margin-left: 30px;
     }
+    
 }
-
+@media(max-width:520px){
+    .img_main{
+        width: 100px;
+    }
+}
 @media(max-width:500px) {
     .header_h1 {
         font-size: 18px;
@@ -45,10 +51,7 @@
         padding-bottom: 10px;
     }
 
-    .img_main {
-        display: none;
-    }
-
+    
     .atm_kurs {
         font-size: 25px;
     }
@@ -70,7 +73,19 @@
         margin-top: 50px;
     }
 }
-
+@media(max-width:540px){
+    .img_main {
+            width: 300px;
+            margin-top: 50px;
+        }
+}
+@media(max-width:540px) {
+    .img_main {
+        width: 270px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
 @media(max-width:350px) {
     .span_video {
         font-size: 15px;
@@ -87,9 +102,8 @@
 
 @media(max-width:685px) {
     .home_about_2 {
-        flex-direction: row;
         width: 520px;
-        height: 380px;
+        height: 340px;
     }
 
     .word_span {
@@ -102,9 +116,11 @@
         width: 180px;
         margin-top: 10px;
     }
-
+    .home_about{
+        margin-top: 30px;
+    }
     .home_about_2 {
-        height: 350px;
+        height: 250px;
     }
 
     .p_about {
@@ -164,7 +180,7 @@
     }
 
     .home_about_2 {
-        height: 270px;
+        height: 220px;
     }
 
     .kurs_name {
@@ -266,6 +282,10 @@
 @media(max-width:460px) {
     .h1_footer {
         font-size: 17px;
+    }
+    .footer{
+        height: 120px;
+        margin-top: 40px;
     }
 }
 

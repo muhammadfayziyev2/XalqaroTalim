@@ -15,7 +15,7 @@ const Location = () => {
               <a href="https://maps.app.goo.gl/joAhwv5mGZfzVtqy6" target='_blanke'><img src="lokatsiya.png" alt="" className='img_location' /></a>
             </div>
             <div>
-              <p className='span_location'>Toshkent transport universiteti</p>
+              <p className='span_location'>Toshkent xalqaro transport universiteti</p>
               <p className='ish'>Ish vaqtimiz :</p>
               <p className='vaqt'>9:00 - 18:00</p>
               <p className='vaqt'>Dushanbadan Shanbagacha</p>

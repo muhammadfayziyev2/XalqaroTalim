@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono, Roboto } from "next/font/google";
 import "./globals.css";
 import "./media.css"
+import { Toaster } from 'react-hot-toast';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +26,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/x-icon" href="/xalq.png"></link>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${roboto} antialiased`}
       >
+        <Toaster position="top-right" reverseOrder={false} />
         {children}
       </body>
     </html>

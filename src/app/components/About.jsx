@@ -13,7 +13,7 @@ const About = () => {
             <div className='word_span'>
               <p className='p_about'> Xalqaro sertifikatlar </p>
               <p className='p_about_2'>IELTS, SAT va boshqa dasturlar</p>
-            </div>
+            </div> 
           </div>
           <div className='home_about_2'>
             <img src="muhit.jpg" alt="" className='img_about' />
