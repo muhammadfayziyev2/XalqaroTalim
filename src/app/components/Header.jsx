@@ -6,11 +6,9 @@ import React from "react";
 
 const Header = () => {
     return (
-        <header className="header">  
+        <header className="header">   
            <div>
-                <img src="Xalqaro ta’lim.png" alt="" className="header_img" />
-                <p className="logo_p">XALQARO TA'LIM, <br /> ILMIY-AMALIY</p>
-                <p className="logo_p">TADQIQOT MARKAZI</p>
+                <img src="xalq.png" alt="" className="header_img" />
            </div>
             <ul className="ul_header">
                 <li className="li">
