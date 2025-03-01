@@ -1,11 +1,22 @@
-@media(max-width:450px) {
+@media(max-width:400px) {
     .ul_header {
-        gap: 15px;
-        
+        gap: 10px;
+        margin-left: -25px;
     }
     .li{
         font-size: 15px;
-        width: 100px;
+        width: 110px;
+    }
+}
+@media(max-width:450px) {
+    .ul_header {
+        gap: 10px;
+        margin-left: -15px;
+    }
+
+    .li {
+        font-size: 15px;
+        width: 110px;
     }
 }
 
@@ -22,6 +33,7 @@
         padding-right: 30px;
         padding-top: 15px;
         padding-bottom: 15px;
+        margin-left: -10px;
     }
 
     .span_main {
