@@ -11,7 +11,11 @@
   width: 85%;
   margin: 0 auto;
 }
-
+.select{
+  border: 1px solid rgba(0, 0, 0, 0.423);
+  border-radius: 17px;
+  font-family: "Roboto", serif;
+}
 .ul_header {
   display: flex;
   

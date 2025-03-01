@@ -58,7 +58,7 @@ const Kurs = () => {
                     slidesPerView={1}
                     navigation
                     pagination={{ clickable: true }}
-                    autoplay={{ delay: 4000, disableOnInteraction: false }} // 5 sekundda avtomatik o'tish
+                    autoplay={{ delay: 4000, disableOnInteraction: false }} 
                     breakpoints={{
                         768: { slidesPerView: 2 },
                         1024: { slidesPerView: 3 },

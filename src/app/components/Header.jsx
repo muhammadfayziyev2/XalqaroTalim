@@ -49,7 +49,7 @@ const Header = () => {
                 <Link href="/register" target="_blank" className="btn">
                     {translations[language].register}
                 </Link>
-                <select value={language} onChange={(e) => changeLanguage(e.target.value)}>
+                <select value={language} onChange={(e) => changeLanguage(e.target.value)} className="select">
                     <option value="uz">UZ</option>
                     <option value="ru">RU</option>
                 </select>

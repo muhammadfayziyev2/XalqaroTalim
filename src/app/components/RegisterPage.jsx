@@ -56,6 +56,8 @@ const RegisterPage = ({ sendData, loading }) => {
                         <option value="Ingliz tili">Ingliz tili</option>
                         <option value="IELTS / CEFR">IELTS / CEFR</option>
                         <option value="IT">IT</option>
+                        <option value="FEATA sertifikat">FEATA sertifikat</option>
+                        <option value="CROWE sertifikat">CROWE sertifikat</option>
                     </select>
                     <div className='btn_register_home'>
                         <button className='btn_register' type="submit"
