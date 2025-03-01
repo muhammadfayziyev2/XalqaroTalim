@@ -21,6 +21,8 @@ const translations = {
             { nomi: "IT", narx: "600 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
             { nomi: "Koreys tili", narx: "500 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
             { nomi: "Rus tili", narx: "500 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
+            { nomi: "CROWE sertifikat", darslar: ["Haftada 5 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
+            { nomi: "FEAT sertifikat", darslar: ["Haftada 5 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
         ],
     },
     ru: {
@@ -34,6 +36,8 @@ const translations = {
             { nomi: "IT", narx: "600 000 сум", darslar: ["Занятия 3 раза в неделю", "Группа: 10-12 учеников", "Длительность урока: 120 минут"] },
             { nomi: "Корейский язык", narx: "500 000 сум", darslar: ["Занятия 3 раза в неделю", "Группа: 10-12 учеников", "Длительность урока: 120 минут"] },
             { nomi: "Русский язык", narx: "500 000 сум", darslar: ["Занятия 3 раза в неделю", "Группа: 10-12 учеников", "Длительность урока: 120 минут"] },
+            { nomi: "CROWE сертификат", darslar: ["Занятия 5 раза в неделю", "Группа: 10-12 учеников", "Длительность урока: 120 минут"] },
+            { nomi: "FEAT сертификат", darslar: ["Занятия 5 раза в неделю", "Группа: 10-12 учеников", "Длительность урока: 120 минут"] },
         ],
     }
 };
