@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useContext } from "react";
-import LanguageContext  from "../context/LanguageContext"; // Tilni olish uchun Context
+import LanguageContext from "../context/LanguageContext"; 
 
 const translations = {
     uz: {

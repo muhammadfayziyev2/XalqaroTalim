@@ -2,8 +2,8 @@
 
 import React, { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
-import LanguageContext  from "../context/LanguageContext"; // Til contextini import qilish
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import LanguageContext  from "../context/LanguageContext"; 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -43,8 +43,8 @@ const translations = {
 };
 
 const Kurs = () => {
-    const { language } = useContext(LanguageContext); // Tilni olish
-    const { title, register, kurslar } = translations[language]; // Hozirgi tilga mos matnlarni olish
+    const { language } = useContext(LanguageContext); 
+    const { title, register, kurslar } = translations[language]; 
 
     return (
         <section id="Kurs">
@@ -53,11 +53,12 @@ const Kurs = () => {
                     <span>{title}</span>
                 </div>
                 <Swiper
-                    modules={[Navigation, Pagination]}
+                    modules={[Navigation, Pagination, Autoplay]}
                     spaceBetween={20}
                     slidesPerView={1}
                     navigation
                     pagination={{ clickable: true }}
+                    autoplay={{ delay: 4000, disableOnInteraction: false }} // 5 sekundda avtomatik o'tish
                     breakpoints={{
                         768: { slidesPerView: 2 },
                         1024: { slidesPerView: 3 },

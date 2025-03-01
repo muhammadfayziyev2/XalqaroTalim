@@ -15,8 +15,8 @@ const translations = {
 };
 
 const Footer = () => {
-  const { language } = useContext(LanguageContext); // Tilni olish
-  const { title1, title2 } = translations[language]; // Hozirgi tilga mos matnlarni olish
+  const { language } = useContext(LanguageContext); 
+  const { title1, title2 } = translations[language]; 
 
   return (
     <footer className="footer">

@@ -3,7 +3,7 @@
 import React, { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-import LanguageContext  from "../context/LanguageContext"; // Tilni olish uchun Context
+import LanguageContext  from "../context/LanguageContext"; 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -33,7 +33,7 @@ const translations = {
 
 const About = () => {
   const { language } = useContext(LanguageContext);
-  const { title, aboutData } = translations[language]; // Hozirgi tilga mos matnlarni olish
+  const { title, aboutData } = translations[language]; 
 
   return (
     <section id="About">
