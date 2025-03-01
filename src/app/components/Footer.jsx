@@ -1,16 +1,31 @@
-'use client'
+"use client";
 
-import React from 'react'
+import React, { useContext } from "react";
+import  LanguageContext from "../context/LanguageContext"; 
+
+const translations = {
+  uz: {
+    title1: "XALQARO TA'LIM,",
+    title2: "ILMIY-AMALIY TADQIQOT MARKAZI",
+  },
+  ru: {
+    title1: "МЕЖДУНАРОДНОЕ ОБРАЗОВАНИЕ,",
+    title2: "НАУЧНО-ПРАКТИЧЕСКИЙ ИССЛЕДОВАТЕЛЬСКИЙ ЦЕНТР",
+  },
+};
 
 const Footer = () => {
-  return (
-      <footer className='footer'>
-        <div className='footer_home'>
-              <h1 className='h1_footer'>XALQARO TA'LIM,</h1>
-              <h1 className='h1_footer'>ILMIY-AMALIY TADQIQOT MARKAZI</h1>
-        </div>
-    </footer>
-  )
-}
+  const { language } = useContext(LanguageContext); // Tilni olish
+  const { title1, title2 } = translations[language]; // Hozirgi tilga mos matnlarni olish
 
-export default Footer
+  return (
+    <footer className="footer">
+      <div className="footer_home">
+        <h1 className="h1_footer">{title1}</h1>
+        <h1 className="h1_footer">{title2}</h1>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

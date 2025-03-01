@@ -9,12 +9,12 @@ const RegisterPage = ({ sendData, loading }) => {
     const [courses, setCourses] = useState("")
 
     const handleSubmit = (e) => {
-        e.preventDefault(); 
+        e.preventDefault();
         if (!FullName || !phone || !courses) {
             toast.error("Iltimos, barcha maydonlarni to'ldiring!");
             return;
         }
-        
+
         sendData(FullName, phone, courses);
         toast.success("Ma'lumotlar muvaffaqiyatli yuborildi!");
         setFullName("");

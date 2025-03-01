@@ -1,6 +1,11 @@
-@media(max-width:1170px) and (min-width:100px) {
+@media(max-width:450px) {
     .ul_header {
-        display: none;
+        gap: 15px;
+        
+    }
+    .li{
+        font-size: 15px;
+        width: 100px;
     }
 }
 
@@ -283,7 +288,8 @@
 
 @media(max-width:460px) {
     .h1_footer {
-        font-size: 17px;
+        font-size: 15px;
+        text-align: center;
     }
     .footer{
         height: 120px;
