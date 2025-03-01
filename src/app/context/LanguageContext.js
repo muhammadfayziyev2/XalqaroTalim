@@ -2,14 +2,10 @@
 
 import { createContext, useContext, useState } from "react";
 
-// 🟢 Context yaratish
 const LanguageContext = createContext(null);
 
-// 🟢 Provider komponenti
 export const LanguageProvider = ({ children }) => {
-    const [language, setLanguage] = useState("uz"); // Default til
-
-    // 🟢 Tilni o‘zgartirish funksiyasi
+    const [language, setLanguage] = useState("uz"); 
     const changeLanguage = (lang) => {
         setLanguage(lang);
     };
@@ -21,7 +17,6 @@ export const LanguageProvider = ({ children }) => {
     );
 };
 
-// 🟢 Custom hook
 export const useLanguage = () => {
     const context = useContext(LanguageContext);
     if (!context) {

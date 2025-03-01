@@ -4,11 +4,11 @@ import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import React from "react";
 import { useContext } from "react";
-import LanguageContext  from "../context/LanguageContext";
+import LanguageContext from "../context/LanguageContext";
 
 
 const translations = {
-    uz: { 
+    uz: {
         kurs: "Kurs",
         afzalliklar: "Afzalliklar",
         manzil: "Manzilimiz",
@@ -37,7 +37,7 @@ const Header = () => {
                 <li className="li">
                     <ScrollLink to="About" smooth={true} duration={500} className="nav-link">
                         {translations[language].afzalliklar}
-                        </ScrollLink>
+                    </ScrollLink>
                 </li>
                 <li className="li">
                     <ScrollLink to="Location" smooth={true} duration={500} className="nav-link">
