@@ -7,7 +7,7 @@ const translations = {
     uz: {
         mainText: "Bizning o'quv markazimizda",
         description:
-            "Ingliz, Xitoy, Yapon, Koreys, Rus va Turk tillari hamda IT sohasida\nmalakali ustozlar tomonidan mukammal o'rgatiladi \nva logistika bo'yicha FEAT sertifikati, \nxalqarto CROW sertifikatlariga tayyorlov kurslari mavjud",
+            "Ingliz, Xitoy, Yapon, Koreys, Rus va Turk tillari, \nlogistika buyicha FEATA, va CROWE xalqaro audit moliyaviy hisobot sertifikati \nhamda IT sohasida malakali ustozlar tomonidan mukammal o'rgatilinadi",
         atmosphere: "Bizning atmosfera",
         videoText:
             '"XALQARO TA‘LIM, ILMIY-AMALIY TADQIQOT MARKAZI"da \nTurk tilidan TYS imtihoni jarayoni',
@@ -15,7 +15,7 @@ const translations = {
     ru: {
         mainText: "В нашем учебном центре",
         description:
-            "Английский, Китайский, Японский, Корейский, Русский и Турецкий языки, а также IT\nпреподаются опытными наставниками \nесть подготовительные курсы для получения сертификатов CROW и FEAT",
+            "Английский, китайский, японский, корейский, русский и турецкий языки, \nFEATA по логистике, сертификат финансовой отчетности международного аудита CROWE, \nа также отличное обучение квалифицированными преподавателями в области ИТ.",
         atmosphere: "Наша атмосфера",
         videoText:
             'В "Международном образовательном,\n научно-практическом \nисследовательском центре"\nпроцесс экзамена TYS по турецкому языку',
