@@ -22,7 +22,7 @@ const translations = {
             { nomi: "Koreys tili", narx: "500 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
             { nomi: "Rus tili", narx: "500 000 so'm", darslar: ["Haftada 3 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
             { nomi: "CROWE sertifikat", darslar: ["Haftada 5 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
-            { nomi: "FEAT sertifikat", darslar: ["Haftada 5 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
+            { nomi: "FEATA sertifikat", darslar: ["Haftada 5 kun dars", "Guruh: 10-12 o'quvchi", "Dars vaqti: 120 daqiqa"] },
         ],
     },
     ru: {
