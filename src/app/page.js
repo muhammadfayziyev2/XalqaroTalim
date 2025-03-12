@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <div className="wrapper">
       <div className="container">
-        <Header />
+        {/* <Header />
         <Main />
         <About />
         <Kurs />
         <Location />
-        <Footer />
+        <Footer /> */}
       </div>
     </div>
   );
