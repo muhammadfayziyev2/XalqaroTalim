@@ -10,9 +10,9 @@ const Page = () => {
   const sendData = async (FullName, phone, courses) => {
     setLoading(true);
     try {
-      await axios.post(`https://xalqarotalimzayavkabackend-production.up.railway.app/submit`, {
+      await axios.post(`https://zayavkabackend2-production.up.railway.app/submit`, {
         FullName,
-        phone,
+        phone, 
         courses,
       });
     } finally {
@@ -20,7 +20,11 @@ const Page = () => {
     }
   };
 
-  return <RegisterPage sendData={sendData} loading={loading} />;
+  return (
+    <div>
+      <RegisterPage sendData={sendData} loading={loading} />
+    </div>
+  );
 };
 
 export default Page;
